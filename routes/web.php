@@ -11,6 +11,24 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Main functional
+Route::get('/', 'WelcomeController@index');
+Route::get('/category/{sport_id}/{country_id?}', 'CategoryController@index');
+Route::get('/news/{id}', 'ArticleController@show');
+
+// Live
+Route::get('/show-live', 'LiveViewControllerller@index');
+Route::get('/show-tv', 'TVControllerller@index');
+
+// About
+Route::get('/about', 'AboutController@index');
+Route::get('/contacts', 'ContactController@index');
+
+
+// Auth
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+
+// Admin

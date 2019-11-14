@@ -1,0 +1,194 @@
+/* Import Social-line */
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social a {
+    text-align: center;
+    width: 26px;
+    height: 26px;
+    font-size: 0.5em;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 46px;
+    margin: 10px 3px;
+    padding: 6px;
+    display: block;
+
+    color: #000;
+}
+.github a:hover {background: #191919; color: #fff;}
+.youtube a:hover {background: #c4302b; color: #fff;}
+.google-pluse a:hover {background: #DD4B39; color: #fff;}
+.twitter a:hover {background: #00acee; color: #fff;}
+.instagram a:hover {background: #3f729b; color: #fff;}
+.facebook a:hover {background: #3b5998; color: #fff;}
+.skype a:hover {background: #00aff0; color: #fff;}
+.vk a:hover {background: #5d84ae; color: #fff;}
+.odnoklassniki a:hover {background: #f93; color: #fff;}
+.pinterest a:hover {background: #c8232c; color: #fff;}
+.linkedin a:hover {background: #0e76a8; color: #fff;}
+.telegram a:hover {background: #249bd7; color: #fff;}
+.tumblr a:hover {background: #34526f; color: #fff;}
+.windows a:hover {background: #125acd; color: #fff;}
+.whatsapp a:hover {background: #50b154; color: #fff;}
+.weibo a:hover {background: #d52b2b; color: #fff;}
+.dropbox a:hover {background: #1087dd; color: #fff;}
+
+/* Custom */
+
+.socials {
+	margin: auto;
+}
+
+.hr {
+	border-bottom: 1px solid #aaaaaa;
+}
+
+footer {
+	padding-top: 20px;
+}
+
+.head-logo {
+	padding-bottom: 10px;
+	padding-top: 10px;
+} 
+
+.main-logo {
+	width: 100%;
+}
+
+.footer-logo {
+	width: 100%;
+} 
+
+.main-banner {
+	width: 100%;
+	border: 1px solid #aaaaaa;
+	border-radius: 5px;
+    height: 10vw;
+}
+
+.pagging-10 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+.error-page {
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: linear-gradient(
+        rgba(255,255,255,0.5),
+        rgba(255,255,255,0.5)
+    ), url('/images/error-back.png');
+}
+
+.nav-second-my {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.25em;
+}
+
+.carousel-move {
+    background-color: black;
+    padding: 1em;
+    border-radius: 50%;
+}
+
+
+.carousel-element {
+    width: 100%;
+    /*height: 70vh;*/
+}
+
+.best-news-photo {
+    width: 100%;
+}
+
+.carousel-message {
+    width: 100%;
+    left: 0%;
+    padding-left: 15%;
+    padding-right: 15%;
+    background: rgba(0, 0, 0, 0.8);
+    display:inline-block;
+    position:absolute;
+    bottom: 0%;
+} 
+
+.carousel-message-short {
+    display: none;
+}
+
+.carousel-message-title {
+    border-bottom: 1px solid #aaaaaa;
+}
+
+.main-content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-left: 1px solid #aaaaaa;
+    border-right: 1px solid #aaaaaa;
+}
+
+.full-title {
+    text-align: center;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.full-title {
+    margin-top: 15px;
+}
+
+.new-news-photo {
+    width: 100%;
+    border: 6px solid rgba(0,0,0,0);
+}
+
+.one-article {
+    border-bottom: 1px solid #aaaaaa;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.links-pagginate a{
+    font-size: 1.5em;
+    color: #888888;
+    margin: 5px;
+}
+
+.links-pagginate span{
+    font-size: 1.6em;
+    color: #000000;
+    margin-left: 5px;
+}
+
+.second-banner {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.left-sidebar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.date {
+    position: absolute;
+    bottom: 5px;
+}
+
+a.disabled {
+    pointer-events: none; 
+    cursor: default; 
+    opacity: 0.6;
+}
+
+body {
+    font-family: 'Yeseva One', cursive;
+}
